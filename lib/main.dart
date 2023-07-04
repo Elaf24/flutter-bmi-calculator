@@ -39,8 +39,8 @@ class InputPage extends StatefulWidget {
 
 class _InputPageState extends State<InputPage> {
   int height = 150;
-  int weight = 50;
-  int age = 50;
+  int weight = 70;
+  int age = 30;
 
   Gender? selectedGender;
   @override
@@ -253,14 +253,14 @@ class _InputPageState extends State<InputPage> {
               width: double.infinity,
               margin: const EdgeInsets.only(top: 10),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(4),
+                borderRadius: BorderRadius.circular(10),
                 color: Colors.white,
               ),
               child: const Center(
                 child: Text(
                   'CALCULATE',
                   style: TextStyle(
-                    fontWeight: FontWeight.w900,
+                    fontWeight: FontWeight.w800,
                     color: Colors.black,
                     fontSize: 30,
                   ),
